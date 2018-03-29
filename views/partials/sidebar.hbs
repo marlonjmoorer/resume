@@ -1,0 +1,30 @@
+<div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src={{photo}} height="100" width="100" alt="" />
+                <h1 class="name">{{name}}</h1>
+                <h3 class="tagline">{{title}}</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:{{links.email}}">{{links.email}}</a></li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank">portfoliosite.com</a></li>
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="{{links.linkedin}}" target="_blank">{{links.linkedin}}</a></li>
+                    <li class="github"><i class="fa fa-github"></i><a href="{{links.github}}" target="_blank">{{links.github}}</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+               {{#each education}}
+                <div class="item">
+                    <h4 class="degree">{{degree}}</h4>
+                    <h5 class="meta">{{school}}</h5>
+                    <div class="time">{{start}}-{{end}}</div>
+                </div>
+               {{/each}}
+            </div><!--//education-container-->
+            
+           
+            
+        </div><!--//sidebar-wrapper-->
+        

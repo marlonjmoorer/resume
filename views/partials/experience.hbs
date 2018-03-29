@@ -1,0 +1,28 @@
+<section class="section experiences-section">
+    <h2 class="section-title">
+        <i class="fa fa-briefcase"></i>Experiences</h2>
+
+    {{#each jobs}}
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">{{title}}</h3>
+                <div class="time">{{start}} - {{end}}</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company">{{company}}</div>
+        </div>
+        <!--//meta-->
+        <div class="details">
+            <p>
+                {{summary}}
+            </p>
+        </div>
+        <!--//details-->
+    </div>
+    {{/each}}
+    
+    <!--//item-->
+
+</section>
+<!--//section-->

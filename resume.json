@@ -1,0 +1,69 @@
+{
+    "name":"Marlon",
+    "title":"Software Developer",
+    "photo":"assets/images/profile.jpeg",
+    "jobs":[
+        {
+            "title":"Software Developer",
+            "location":"Washington , D.C",
+            "start":"Dec 2017",
+            "end":"Present",
+            "summary":"Built and maintained a Winforms application for bank examiners ",
+            "company":"Primescape"
+        },
+        {
+            "title":"Web Developer",
+            "location":"Reston , Va",
+            "start":"Feb 2017",
+            "end":"Dec 2017",
+            "summary":"Participated in all phases of software development with a focus on design, development, and implementation using the .Net Framework, C#, MVC, Oracle PL/SQL or other programming language.",
+            "company":"Blackboard"
+        },
+        {
+            "title":"Jr. Web Developer",
+            "location":"Fairfax , Va",
+            "start":"Dec 2014",
+            "end":"Feb 2017",
+            "summary":"Worked with a team of developers to convert a classic ASP web application to ASP.NET MVC5",
+            "company":"Asm Research"
+        }
+    ],
+    "projects":[
+        {
+            "name":"Kast",
+            "link":"",
+            "description":"A android  podcast application written using the Kotlin programming language"
+        },
+        {
+            "name":"FileSpace",
+            "link":"",
+            "description":"An FTP client  built using the Python Flask framework"
+        },
+        {
+            "name":"Eaze",
+            "link":"",
+            "description":"A blog with built using  the Django rest framework"
+        }
+    ],
+    "education":[
+        {
+            "school":"Austin Peay State University",
+            "degree":"B.Sc in Comptuer Science",
+            "start":"2008",
+            "end":"2013"
+        }
+    ],
+    "skills":[
+        {"name":"C#", "level":"98"},
+        {"name":"HTML5 & CSS", "level":"70"},
+        {"name":"SQL", "level":"98"},
+        {"name":"Javasript", "level":"70"},
+        {"name":"Python", "level":"80"}
+    ],
+    "links":{
+        "email":"marlonjmoorer@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/marlon-moorer-70166083/",
+        "github":"https://github.com/marlonjmoorer"
+    }
+
+}
